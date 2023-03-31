@@ -12,6 +12,7 @@ import { pageAnimation } from "../animation";
 const OurWork = () => {
     return(
         <Work 
+        style={{background: "#fff"}}
         exit="exit" 
         variants={pageAnimation} 
         initial="hidden" 
