@@ -14,6 +14,7 @@ import { sliderContainer,
          photoAnim, 
          lineAnim } 
 from "../animation";
+import ScrollTop from "../components/ScrollTop";
 
 
 const OurWork = () => {
@@ -52,6 +53,7 @@ const OurWork = () => {
                 <img src={goodtimes} alt="goodtimes" />
                 </Link>
             </Movie>
+            <ScrollTop />
         </Work>
         
     );
