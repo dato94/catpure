@@ -9,9 +9,13 @@ import home2 from '../img/home2.png';
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
 
+
+
+
 const ServicesSection = () => {
+    
     return(
-        <Services>
+        <Services  initial="hidden"  >
             <Description>
                 <h2>High <span>quality</span> service.</h2>
                 <Cards>
